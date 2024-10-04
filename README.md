@@ -16,6 +16,14 @@ This project is part of the Udacity Data Science Nanodegree and focuses on analy
   - `new_york_city.csv`
   - `washington.csv`
 
+
+### Project Goals
+The purpose of this project is to explore data related to BikeShare systems in three major cities: Chicago, New York City, and Washington. Through this analysis, we aim to achieve the following goals:
+- Understand the most popular times for bike rentals, including the busiest month, day of the week, and hour of the day.
+- Explore user demographics and usage patterns, including breakdowns by user type (customer or subscriber), gender, and birth year.
+- Provide insights into trip durations and popular stations for starting and ending trips.
+- Identify trends that can help city planners and BikeShare services improve their systems.
+
 ### Credits
 - [Udacity's GitHub Repository](https://github.com/udacity/pdsnd_github) for the original project setup.
 - [Python Documentation](https://docs.python.org/3/) for references on the Python programming language.
