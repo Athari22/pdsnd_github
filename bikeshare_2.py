@@ -8,6 +8,9 @@ CITY_DATA = {
     "washington": "washington.csv",
 }
 
+MONTHS = ["january", "february", "march", "april", "may", "june"]
+DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+
 
 def get_filters():
     """
@@ -36,7 +39,7 @@ def get_filters():
         month = input(
             "Which month would you like to explore? (all, january, february, ..., june)\n"
         ).lower()
-        if month in ["all", "january", "february", "march", "april", "may", "june"]:
+        if month in ["all"] + MONTHS:
             break
         else:
             print("Invalid input. Please enter a valid month or 'all'.")
